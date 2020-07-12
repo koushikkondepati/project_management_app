@@ -1,3 +1,7 @@
+body {
+    margin: 0 auto;
+}
+
 header {
     padding: 10px 0 10px 8px;
     border: 1px solid black;
@@ -11,4 +15,20 @@ header {
 #menu {
     float: left;
     cursor: pointer;
+}
+
+.parentdiv { 
+    display: flex;
+    flex-direction: row;
+}
+
+#board-menu {
+    background: #ffee48;
+    width: 20%;
+    height: 100vh;
+
+}
+
+#container {
+    width: 80%;
 }
