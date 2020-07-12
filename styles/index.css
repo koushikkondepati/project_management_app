@@ -1,12 +1,13 @@
 body {
     margin: 0 auto;
+    background: #ccffcc;
 }
 
 header {
     padding: 10px 0 10px 8px;
     border: 1px solid black;
     margin: auto;
-    background: black;
+    background: #24292e;
     color: white;
     font-size: 30px;
     text-align: center;
@@ -26,6 +27,9 @@ header {
     background: #ffee48;
     width: 20%;
     height: 100vh;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px 0 0 10px;
 
 }
 
@@ -35,7 +39,7 @@ header {
 }
 
 .content-1 {
-    padding: 10px 0 0 10px;
+    padding: 10px 0;
     z-index: 1;
 }
 
@@ -54,4 +58,21 @@ header {
     font-size: 15px;
     float: right;
     border-radius: 5px;
+}
+
+.project-Block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: #ff6666;
+    color: white;
+    margin-top: 20px;
 }
