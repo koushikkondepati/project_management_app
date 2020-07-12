@@ -31,4 +31,27 @@ header {
 
 #container {
     width: 80%;
+    margin: 0 20px;
+}
+
+.content-1 {
+    padding: 10px 0 0 10px;
+    z-index: 1;
+}
+
+.input-box {
+    width: 80%;
+    padding: 10px 0 10px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+
+}
+
+.addBoard {
+    background: green;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    float: right;
+    border-radius: 5px;
 }
