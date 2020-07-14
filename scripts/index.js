@@ -30,3 +30,7 @@ function showProjectCards() {
     });
         
 }
+
+function removeCards(){
+    document.getElementById('project-list').innerHTML = "";
+}
