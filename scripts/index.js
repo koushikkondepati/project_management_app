@@ -34,3 +34,13 @@ function showProjectCards() {
 function removeCards(){
     document.getElementById('project-list').innerHTML = "";
 }
+
+function addBoard(id) {
+    var templateBlock = '<section class="board-block">'+
+    '<div>' +id.value+ '<button type="button" onclick="removeCards()">Remove Card</button></div>'+
+    '<div class="project-Block" id="project-list">'+
+        
+    '</div>' +
+    '</section>';
+    document.getElementById('boardBlockList').innerHTML += templateBlock;
+}

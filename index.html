@@ -16,10 +16,13 @@
             <div id="board-menu"></div>
             <div id="container">
                 <div class="content-1">
-                    <input class="input-box" type="text" placeholder="eg. new test board" />
-                    <button type="submit" class="addBoard">Add Board</button> 
+                    <input class="input-box" id="newBoardText" value="" type="text" placeholder="eg. new test board" />
+                    <button type="submit" class="addBoard" onclick="addBoard(newBoardText)">Add Board</button> 
                 </div>
-                <section>
+                <div id="boardBlockList">
+
+                </div>
+                <section class="board-block">
                     <div>Board Name <button type="button" onclick="removeCards()">Remove Card</button></div>
                     <div class="project-Block" id="project-list">
                         
