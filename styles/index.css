@@ -13,6 +13,8 @@ header {
     text-align: center;
    
 }
+
+
 #menu {
     float: left;
     cursor: pointer;
@@ -21,6 +23,7 @@ header {
 .parentdiv { 
     display: flex;
     flex-direction: row;
+    position: relative;
 }
 
 #board-menu {

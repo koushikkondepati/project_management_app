@@ -6,14 +6,27 @@ function toggleMenu() {
         toggle.style.display = "none";
     }
 }
+
+var ProjectListObject = [
+    {
+        name: "project 1"
+    },
+    {
+        name: "project 2"
+    }    
+]
 showProjectCards();
 function showProjectCards() {
+    ProjectListObject.forEach(function(value,index){
         var template = '<div class="project-card">'+
-            'Project 1'+
+            value.name+
             '<ul>'+
                 '<li>Task one</li>'+
                 '<li>Task two</li>'+
             '</ul>'+
         '</div>';
-        document.getElementById('project-list').innerHTML = template;
+        document.getElementById('project-list').innerHTML += template;
+
+    });
+        
 }
